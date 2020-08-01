@@ -108,7 +108,9 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ar71xx=y
           CONFIG_TARGET_ar71xx_generic=y
-          CONFIG_TARGET_ar71xx_generic_Default=y
+          # CONFIG_TARGET_ar71xx_generic_Default=y
+          CONFIG_TARGET_ar71xx_generic_DEVICE_tl-wdr4300-v1=y
+          CONFIG_TARGET_ar71xx_generic_DEVICE_tl-wdr4300-v1-il=y
           EOF
 
           # 固件压缩:
